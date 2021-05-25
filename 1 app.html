@@ -1,0 +1,270 @@
+ <!doctype html>
+<html lang="en">
+
+<head>
+    <!--
+    /   Nutrition Assistant: Free Template by FreeHTML5.co
+    /   Author: https://freehtml5.co
+    /   Facebook: https://facebook.com/fh5co
+    /   Twitter: https://twitter.com/fh5co
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
+    <title>Nutrition Assistant</title>
+    <!-- Stylesheets & Fonts -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
+        rel="stylesheet">
+    <!-- Plugins Stylesheets -->
+    <link rel="stylesheet" href="assets/css/loader/loaders.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/aos/aos.css">
+    <link rel="stylesheet" href="assets/css/swiper/swiper.css">
+    <link rel="stylesheet" href="assets/css/lightgallery.min.css">
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Loader Start -->
+    <div class="css-loader">
+        <div class="loader-inner line-scale d-flex align-items-center justify-content-center"></div>
+    </div>
+    <!-- Loader End -->
+    <!-- Header Start -->
+    <header class="position-absolute w-100">
+   
+        <div class="container">
+            <div class="top-header d-none d-sm-flex justify-content-between align-items-center">
+                <div class="contact">
+                    <a href="tel:8123954360" class="tel"><i class="fa fa-phone" aria-hidden="true"></i>8123954360</a>
+                    <a href="mailto:varsshini4@gmail.com"><i class="fa fa-envelope"
+                            aria-hidden="true"></i>varsshini4@gmail.com</a>
+                </div>
+                <nav class="d-flex aic">
+                 <div class="group d-flex align-items-center">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"><span
+                            class="navbar-toggler-icon"></span></button>
+                
+           
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                 
+                   <form action="/uploaddata"  method="post" class="mt-3" style="margin-left:380px;">
+	         {{ msg }}
+           <div class="row mb-3 mx-auto">
+			    <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+			    <div class="col-sm-10 col-lg-4">
+			      <input type="text" name="name" placeholder="Enter Your name"  id="name" required></br></br>
+			    </div>
+			  </div>
+			  <div class="row mb-3 mx-auto">
+			    <label for="inputEmail" class="col-sm-2 col-form-label">Password</label>
+			    <div class="col-sm-10 col-lg-4">
+			      <input type="text" name="password" placeholder="Enter Your Password"  id="password" required></br></br>
+			    </div>
+			  </div>
+            	
+			  
+			  <button type="submit" class="btn btn-primary" style="margin-left:130px;">Submit</button>
+			   {{account}}
+			  </div>
+			     <button class="navbar-toggler" type="button" data-toggle="collapse">
+			  <p class="worddark"><i class="fa fa-user"></i><a  href="file:///C:/Users/User/Desktop/multipurpose/login%20page.html" target="_self">LOGIN</a></p>
+			 
+			  </button>
+            </form> 
+               <button class="navbar-toggler" type="button" data-toggle="collapse">
+            <p class="worddark"><i class="fa fa-user"></i><a  href="file:///C:/Users/User/Desktop/multipurpose/register.html" target="_self">NEWUSER REGISTRATION</a></p>
+            </button>
+             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <h2> Register Form </h2>
+        <form action="/register" method="post">
+        <div class="msg">{{ msg }}</div>
+            <!-- <input type="text" placeholder="fullname" id="fullname"> </br></br> -->
+            
+           <input type="text" name="username" placeholder="Enter Your Username"  id="username" required></br></br>
+  <input type="text" name="Date of Birth" placeholder="Enter Your Date of Birth"  id="Date of Birth" required></br></br>
+<input type="text" name="Mobile number" placeholder="Enter Your Mobile number" id="Mobile number" required></br></br>
+			<input type="email" name="email" placeholder="Enter Your Email ID"  id="email" required></br></br>
+			<input type="password" name="password" placeholder="Enter Your Password" id="password" required></br></br>
+	<input type="password" name="password" placeholder="Confirm Password" id="password" required></br></br>	
+        <button type="submit" id="button" href="file:///C:/Users/User/Desktop/multipurpose/register.html" target="_self" class="btn btn-primary"> Register </button>
+        </form>
+   
+
+    <div class="note mt-3 text-center"> <!--Register form -->
+    <p> already have an account ? please login  <a href="/login">login! </a> </p>
+    </div>
+    </div>
+            </div>             
+             </div>      
+                    
+                    <ul class="nav social d-none d-md-flex">
+                        <li><a href="https://www.facebook.com/fh5co" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </nav>
+               
+            </div>
+           
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Nutrition Assistant"></a>
+                <div class="group d-flex align-items-left">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"><>
+                            class="navbar-toggler-icon"></span></button>
+               
+                     </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                     
+                    <form class="bg-white search-form" method="get" id="searchform">
+                        <div class="input-group">
+                        <div class="login-form">
+ <h3> <font color="violet"> Username:</font></h3>
+     <input class="field form-control" id="user name" name="user name" type="text" placeholder="ENTER YOUR NAME">
+   <font color="violet"> <h3>Password:</h3> </font> 
+    <input class="field form-control" id="password" name="password" type="password" placeholder="ENTER YOUR PASSWORD">
+    <br>
+     <input class=" btn btn-primary" id="searchsubmit" name="LOGIN" type="submit"
+                                    value="LOGIN">
+    <br>
+   
+       <li class="nav-item"><a class="nav-link" href="#"> Don't have a account,Sign up!</a></li>
+  </div>
+</div>
+<div class="error-page">
+  <div class="try-again">Error: Try again?</div>
+</div>
+                           
+                             
+                            
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Hero Start -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-md-1 col-md-11">
+                    <div class="swiper-container hero-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide-content d-flex align-items-center">
+                                <div class="single-slide">
+                                    <h1 data-aos="fade-right" data-aos-delay="200">Creative<br>Nutrition Assistant
+                                    </h1>
+                                    <p data-aos="fade-right" data-aos-delay="600">Crafted by Varsshini.V for
+                                        estimating the food attributes<br> like fat,protein etc. in our food.
+                                    </p>
+                                   
+                                </div>
+                            </div>
+                            <div class="swiper-slide slide-content d-flex align-items-center">
+                                <div class="single-slide">
+                                    </br>
+                                                                </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+
+                                   <font color="black"> <h2>Why is nutrition important?</h2>
+<p>A healthy diet throughout life promotes healthy pregnancy outcomes, supports normal growth, development and ageing, helps 
+to maintain a healthy body weight, and reduces the risk of chronic disease leading to overall health and well-being.<br>
+
+Benefits of healthy eating
+A diversified, balanced and healthy diet will vary depending on:
+
+1.Age 
+2.Gender
+3.Lifestyle
+4.Degree of physical activity
+5.Cultural context
+6.Locally available foods 
+7.Dietary and food customs.
+</p>
+<p>
+Healthy food starts with a healthy diet in pregnancy , continues with breastmilk for babies 
+and is important for children and teenagers and adults and with ageing.</p>
+
+<h2>People who regularly eat:</h2>
+
+<p>More foods high in energy, fats, free sugars or salt/sodium and
+do not eat enough fruit, vegetables and foods with whole grains
+are more likely to develop chronic diseases (external site) like diabetes, heart disease and cancer.</p></font>
+                                        
+                                        
+                   
+                                </div>
+                            </div>
+                            <div class="swiper-slide slide-content d-flex align-items-center">
+                                <div class="single-slide">
+                                    <h1 data-aos="fade-right" data-aos-delay="200">ABOUT US
+                                    </h1>
+                                    <p data-aos="fade-right" data-aos-delay="600">This application aims to estimate the nutrient contents in the food with an image as the input
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Add Control -->
+            <span class="arr-left"><i class="fa fa-angle-left"></i></span>
+            <span class="arr-right"><i class="fa fa-angle-right"></i></span>
+        </div>
+        <div class="texture"></div>
+        <div class="diag-bg"></div>
+    </section>
+    <!-- Hero End -->
+    <!-- Call To Action Start -->
+    <section class="cta" data-aos="fade-up" data-aos-delay="0">
+            <div class="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
+                <div class="content" data-aos="fade-up" data-aos-delay="300">
+                    <h2>CHOOSE FILE TO CALCULATE THE NUTRIENTS IN THE FOOD</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="cta" data-aos="fade-up" data-aos-delay="0">
+        <div class="container">
+         <div class=" d-xl-flex align-items-center justify-content-around text-center text-xl-left">
+                           <div class="content" data-aos="fade-up" data-aos-delay="500">              
+                    <a href="#"class="btn btn-primary"> <font face="Lucida Fax"> <p><input type="file" name="file"> </p> <p><input type="Submit" value="Submit"></p> </font> </a>                                       
+                </div>
+               </div> 
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action End -->
+    <!--jQuery-->
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <!--Plugins-->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/loaders.css.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/lightgallery-all.min.js"></script>
+    <!--Template Script-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+
+</html>
